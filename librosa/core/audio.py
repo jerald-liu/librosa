@@ -305,7 +305,7 @@ def stream(
     fit entirely in memory at once.
 
     Instead of loading the entire audio signal into memory (as
-    in `load`, this function produces *blocks* of audio spanning
+    in `load`), this function produces *blocks* of audio spanning
     a fixed number of frames at a specified frame length and hop
     length.
 
